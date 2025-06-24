@@ -72,7 +72,7 @@ public class ObjectDefinition {
         .body(body)
         .header("Authorization", ObjectDefinition.token != null ? "Bearer " + ObjectDefinition.token : "")
         .when()
-        .request(method, ObjectDefinition.baseUrl + url + ObjectDefinition.objectId);
+        .request(method, ObjectDefinition.baseUrl + url);
         System.out.println("Response Winda: " + response.body().asString());
         }
 
@@ -81,7 +81,7 @@ public class ObjectDefinition {
         ObjectMapper objectMapper = new ObjectMapper();
         List<ResponseObject> responseObject = objectMapper.readValue(response.body().asString(), new TypeReference<List<ResponseObject>>() {});
         assert responseObject.get(0).getName().equals(name) : "Expected name: " + name + ", but got: " + responseObject.get(0).getName();
-        
+
     }
 
     @And("CPU Model in the response must be {string}")
@@ -96,7 +96,7 @@ public class ObjectDefinition {
         ObjectMapper objectMapper = new ObjectMapper();
         List<ResponseObject> responseObject = objectMapper.readValue(response.body().asString(), new TypeReference<List<ResponseObject>>() {});
         Assert.assertEquals(responseObject.get(0).getData().getScreenSize(), screenSize, "expected CPU Model: " + screenSize + ", but got: " + responseObject.get(0).getData().getScreenSize());
-    
+        
     }
 
     @Given("Make sure object id in local storage not empty")

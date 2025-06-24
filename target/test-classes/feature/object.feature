@@ -36,7 +36,7 @@ Scenario:
 
 Scenario: 
 Given Make sure token in local storage not empty
-When I send a http "PUT" request to "/webhook/37777abe-a5ef-4570-a383-c99b5f5f7906/api/objects/" with body:
+When I send a http "PUT" request to "/webhook/37777abe-a5ef-4570-a383-c99b5f5f7906/api/objects/1076" with body:
 """
 {
   "name": "Ipad Winda di-Update",

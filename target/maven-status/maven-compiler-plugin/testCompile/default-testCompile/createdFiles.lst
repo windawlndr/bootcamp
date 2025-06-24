@@ -1,6 +1,9 @@
 POJO/StaticVar.class
+cucumber/definitions/ObjectDefinition$1.class
+cucumber/definitions/ObjectDefinition$2.class
 cucumber/helper/CucumberReport.class
 restassured/ecom.class
+cucumber/definitions/ObjectDefinition.class
 restassured/login.class
 ScenarioTest/E2ERestAssured.class
 cucumber/runners/CucumberRunner.class

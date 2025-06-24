@@ -23,10 +23,10 @@ public class ResponseObject {
         @JsonProperty("price")
         private int price;
 
-        @JsonProperty("cpu_model")
+        @JsonProperty("CPU model")
         private String cpuModel;
 
-        @JsonProperty("hard_disk_size")
+        @JsonProperty("Hard disk size")
         private String hardDiskSize;
 
         @JsonProperty("color")
