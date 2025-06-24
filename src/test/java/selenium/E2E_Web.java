@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 
 
-public class login_selenium {
+public class E2E_Web {
     public WebDriver webDriver;
 
     @BeforeSuite
