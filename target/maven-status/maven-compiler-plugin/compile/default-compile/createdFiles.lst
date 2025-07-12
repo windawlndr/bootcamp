@@ -1,5 +1,9 @@
 com/demo/model/ResponseObject$ProductData.class
-com/demo/model/AddObject.class
+com/demo/selenium_page_factory/base/BasePage.class
 com/demo/model/AddObject$ProductData.class
+com/demo/selenium_page_factory/constant/Env.class
+com/demo/selenium_page_factory/base/BaseObject.class
+com/demo/model/AddObject.class
 com/demo/model/ResponseObject.class
+com/demo/selenium_page_factory/base/BaseTestSuite.class
 com/demo/restassured/program/Main.class

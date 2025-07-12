@@ -1,9 +1,8 @@
-package com.demo.Selenium_Page_Factory.base;
-
+package com.demo.selenium_page_factory.base;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Wait;
 
-public class BasePage {
+public abstract class BasePage {
     public WebDriver webDriver;
     public Wait<WebDriver> wait;
 

@@ -1,131 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-15T11:21:39 WIB" name="Surefire suite" finished-at="2025-06-15T11:21:53 WIB" duration-ms="13469">
+  <suite started-at="2025-07-12T19:19:22 WIB" name="runner" finished-at="2025-07-12T19:19:25 WIB" duration-ms="3625">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.runners.CucumberRunner@3e2e18f2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-06-15T11:21:39 WIB" name="Surefire test" finished-at="2025-06-15T11:21:53 WIB" duration-ms="13469">
-      <class name="cucumber.runners.CucumberRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.runners.CucumberRunner@3e2e18f2]" started-at="2025-06-15T11:21:39 WIB" name="setUpClass" finished-at="2025-06-15T11:21:39 WIB" duration-ms="83" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@6d9428f3]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-07-12T19:19:22 WIB" name="runner" finished-at="2025-07-12T19:19:25 WIB" duration-ms="3625">
+      <class name="selenium_page_factory.test_suites.CheckoutFlowE2E">
+        <test-method is-config="true" signature="setup()[pri:0, instance:selenium_page_factory.test_suites.CheckoutFlowE2E@5e180aaf]" started-at="2025-07-12T19:19:20 WIB" name="setup" finished-at="2025-07-12T19:19:22 WIB" duration-ms="1429" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.runners.CucumberRunner@3e2e18f2]" started-at="2025-06-15T11:21:39 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-15T11:21:39 WIB" duration-ms="32" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Object API"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setup -->
+        <test-method signature="checkoutFlow()[pri:0, instance:selenium_page_factory.test_suites.CheckoutFlowE2E@5e180aaf]" started-at="2025-07-12T19:19:22 WIB" name="checkoutFlow" finished-at="2025-07-12T19:19:25 WIB" duration-ms="3587" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.runners.CucumberRunner@3e2e18f2]" started-at="2025-06-15T11:21:39 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-15T11:21:42 WIB" duration-ms="2875" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Object API"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- checkoutFlow -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:selenium_page_factory.test_suites.CheckoutFlowE2E@5e180aaf]" started-at="2025-07-12T19:19:25 WIB" name="teardown" finished-at="2025-07-12T19:19:25 WIB" duration-ms="120" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.runners.CucumberRunner@3e2e18f2]" started-at="2025-06-15T11:21:42 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-15T11:21:45 WIB" duration-ms="2855" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Object API"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.runners.CucumberRunner@3e2e18f2]" started-at="2025-06-15T11:21:45 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-15T11:21:47 WIB" duration-ms="1626" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Object API"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.runners.CucumberRunner@3e2e18f2]" started-at="2025-06-15T11:21:47 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-15T11:21:50 WIB" duration-ms="3687" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Object API"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.runners.CucumberRunner@3e2e18f2]" started-at="2025-06-15T11:21:50 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-15T11:21:52 WIB" duration-ms="2177" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Object API"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.runners.CucumberRunner@3e2e18f2]" started-at="2025-06-15T11:21:52 WIB" name="tearDownClass" finished-at="2025-06-15T11:21:53 WIB" duration-ms="112" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-        <test-method is-config="true" signature="after_suite()[pri:0, instance:cucumber.runners.CucumberRunner@3e2e18f2]" started-at="2025-06-15T11:21:53 WIB" name="after_suite" finished-at="2025-06-15T11:21:53 WIB" duration-ms="245" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after_suite -->
-      </class> <!-- cucumber.runners.CucumberRunner -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+        </test-method> <!-- teardown -->
+      </class> <!-- selenium_page_factory.test_suites.CheckoutFlowE2E -->
+    </test> <!-- runner -->
+  </suite> <!-- runner -->
 </testng-results>
